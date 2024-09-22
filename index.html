@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmad Radifa Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+            <article>
+                <section id="about" class="fade-in">
+                    <h2 class="title-about-me">About Me</h2>
+                    <div class="content-about">
+                        <img src="pct/ahmad2.png" alt="ahmad radifa" class="profile-photo">
+                        <p class="pragraph-about">
+                            Saya adalah seorang Penggiat di bidang IT dengan latar belakang sebagai pengembangan perangkat lunak, IoT, dan robotika. Saya memiliki pengalaman menggunakan bahasa pemrograman seperti C++, JavaScript, dan Python, serta mahir dalam mengelola data menggunakan MS Excel untuk analisis dan pelaporan. Selain itu, saya memiliki keterampilan sebagai database engineer dengan SQL dan berpengalaman dalam pengembangan aplikasi web menggunakan Node.js. Saya juga pernah bekerja sebagai admin, di mana saya mengelola dokumen, data, dan mendukung operasional proyek dengan keterampilan administrasi yang solid.
+                        </p>
+
+                    </div>
+                </section>
+
+                <section id="portfolio" class="fade-in">
+                    <h2>Portfolio</h2>
+                    <div class="portfolio-item">
+                        <h3>Project Pembangkit Listrik Tenaga Surya - 2020</h3>
+                        <div id="slider1" class="slider">
+                            <div class="slides">
+                                <img src="pct/topesino/project1-1.jpg" alt="Solar Project Image 1" style="display: block;">
+                                <img src="pct/topesino/project1-2.jpg" alt="Solar Project Image 2" style="display: none;">
+                                <img src="pct/topesino/project1-3.jpg" alt="Solar Project Image 3" style="display: none;">
+                                <img src="pct/topesino/project1-4.jpg" alt="Solar Project Image 4" style="display: none;">
+                                <img src="pct/topesino/project1-5.jpg" alt="Solar Project Image 5" style="display: none;">
+                                <img src="pct/topesino/project1-6.jpg" alt="Solar Project Image 6" style="display: none;">
+                            </div>
+                            <button class="prev" onclick="pindahSlide('slider1', -1)">&#10094;</button>
+                            <button class="next" onclick="pindahSlide('slider1', 1)">&#10095;</button>
+                        </div>
+                        <p>
+                            Project Pembangkit listrik Tenaga surya diperuntuk untuk SD Negeri Topesino yang pada saat itu tidak memiliki akses yang baik untuk mendapatkan listrik pemerintah. 2 tahun kami habiskan untuk merancang sistem pembangkit listrik tenaga surya. Hasil akhirnya, SDN Topesino bisa mendapatkan listrik yang bersumber dari Panel Surya.
+                        </p>
+                    </div>
+                    <div class="portfolio-item">
+                        <h3>Aplikasi Analisa Bisnis Toko ASP'Family - 2023</h3>
+                        <div id="slider2" class="slider">
+                            <div class="slides">
+                                <img src="pct/ASP/AnalisPage.jpeg" alt="ASP Family App Image 1" style="display: block;">
+                                <img src="pct/ASP/InventoryPage.jpeg" alt="ASP Family App Image 2" style="display: none;">
+                            </div>
+                            <button class="prev" onclick="pindahSlide('slider2', -1)">&#10094;</button>
+                            <button class="next" onclick="pindahSlide('slider2', 1)">&#10095;</button>
+                        </div>
+                        <p>
+                            Aplikasi ini digunakan untuk mencatat pembelian dan melihat income per hari, bulan, hingga tahun serta memanajemen inventory. Aplikasi ini saya buat untuk digunakan secara lokal, dan ini merupakan aplikasi pertama saya yang sangat kompleks dan menjadi studi/project saya dalam pengembangan web. Aplikasi ini dibangun menggunakan HTML, CSS, JavaScript polos, dan Express.js sebagai backend.
+                        </p>
+                    </div>
+                </section>
+            </article>
+
+            <aside class="fade-in">
+                <div class="card">
+                    <h2>Hobbies</h2>
+                    <ul class="hobbies">
+                        <li><img src="pct/chess.png" alt="Chess Icon"> Catur</li>
+                        <li><img src="pct/hiking.png" alt="Adventure Icon"> Bertualang</li>
+                        <li><img src="pct/open-book.png" alt="Book Icon"> Membaca</li>
+                        <li><img src="pct/comedian.png" alt="Comedy Icon"> Berkomedi</li>
+                    </ul>
+                </div>
+                
+                <div class="card">
+                    <h2>Robotics/IOT Project</h2>
+                    <div id="slider3" class="Robotics-IoT-Project">
+                        <div class="slides">
+                            <img src="pct/iot/pct1.jpeg" alt="pct1" style="display: block;" class="small-gallery-img">
+                            <img src="pct/iot/pct2.jpeg" alt="pct2" style="display: none;" class="small-gallery-img">
+                            <img src="pct/iot/pct3.jpeg" alt="pct3" style="display: none;" class="small-gallery-img">
+                            <img src="pct/iot/pct4.jpeg" alt="pct4" style="display: none;" class="small-gallery-img">
+                            <img src="pct/iot/pct5.jpeg" alt="pct5" style="display: none;" class="small-gallery-img">
+                            <img src="pct/iot/pct6.jpeg" alt="pct6" style="display: none;" class="small-gallery-img">
+                            <img src="pct/iot/pct7.jpeg" alt="pct7" style="display: none;" class="small-gallery-img">
+                            <img src="pct/iot/pct8.jpeg" alt="pct8" style="display: none;" class="small-gallery-img">
+                            <img src="pct/iot/pct9.jpeg" alt="pct9" style="display: none;" class="small-gallery-img">
+                            <img src="pct/iot/pct10.jpeg" alt="pct10" style="display: none;" class="small-gallery-img">
+                        </div>
+                        <button class="prev" onclick="pindahSlide('slider3', -1, true)">&#10094;</button>
+                        <button class="next" onclick="pindahSlide('slider3', 1, true)">&#10095;</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2>Quote</h2>
+                    <p>"Knowledge is power" – Isaac Newton</p>
+                </div>
+            </aside>
+            
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 Ahmad Radifa. Dicoding Project</p>
+        <p>Email: ahmadr000000000@gmail.com </p>
+    </footer>
+</body>
+    <script>
+        function pindahSlide(siledId, n, isIoT = false) {
+            const slides = isIoT 
+                ? document.querySelectorAll(`#${siledId} .slides img`) 
+                : document.querySelectorAll(`#${siledId} .slides img`);
+                
+            let indexSilde = Array.from(slides).findIndex(slide => slide.style.display === 'block');
+            
+            if (indexSilde === -1) indexSilde = 0;
+
+            slides.forEach(slide => slide.style.display = 'none');
+            indexSilde = (indexSilde + n + slides.length) % slides.length;
+
+            slides[indexSilde].style.display = 'block';
+        }
+    </script>
+   
+</html>
